@@ -1,0 +1,125 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: #00B7FF;
+}
+
+#wrap {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+}
+
+#container {
+}
+
+#pickercontainer {
+    overflow: hidden;
+}
+
+#pickercanvas {
+    width: 35px;
+    height: 256px;
+    position: absolute;
+    top: 100px;
+    right : 50px;
+}
+
+#colorpicker {
+    position: absolute;
+    top: 110px;
+    right: 52px;
+    opacity: 0.0;
+}
+
+#ui_layer {
+    background-color: rgba(0, 0, 0, 0.85);
+    color: white;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+#ui_layer p {
+    border-right: 1px solid #555;
+    margin: 0px;
+    padding: 15px;
+}
+
+.html5lp {
+}
+
+.html5jp-cpick {
+    width: 75px;
+}
+
+.rows {
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.cols {
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.cols p {
+    display: inline-block;
+}
+
+#minmax {
+    background-color: #333;
+    width: 100%;
+    height: 150px;
+    overflow: auto;
+}
+
+.minmaxRow {
+    border-bottom: 1px solid #444;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.caption {
+    padding: 10px 20px;
+    min-width: 100px;
+    max-width: 50%;
+    overflow: hidden;
+}
+
+.value {
+    padding: 10px 20px;
+    min-width: 100px;
+}
+
+#info {}
+
+.info {
+    padding: 15px;
+    width: 500px;
+    display: inline-block;
+}
+
+#samplingdiv {
+    display: none;
+}
+
+
+
